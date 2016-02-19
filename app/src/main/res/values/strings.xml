@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SDAM</string>
+    <string name="large_text">
+        "Bienvenidos al semillero de desarrollo de aplicaciones moviles.\n\n"
+
+        "SDAM\n\n"
+
+        "El fin de este semillero es poder conocer más sobre las nuevastecnologías de las aplicaciones moviles"
+        "en este caso enfocado al SO Android, el cual abarca el más del 80% del mercado y es el más versatil.\n\n"
+
+        "Esta es una plantilla de Scrolling con Floating Action Button y material design (el lenguaje gráfico de google)"
+        "se hará público el link de repositorio de este proyecto para el aprendizaje de la descarga y trabajo de repositorios"
+        "en cualquier otro computador que tenga acceso a GitHub.\n\n"
+
+        "Se hará uso de material design para todos los proyectos con el fin de crear conciencia de que no solo la parte"
+        "lógica es la que importa, la interfz de usuario así como su intercción también son elementos importantes al momento"
+        " de crear una aplicación móvil, ya que esto ayuda al usuario a usar la aplicación de una manera más intuitiva y fácil "
+        "lo cual tradauce a usuarios felices y satisfechos. :)\n\n"
+
+        "Los primeros integrantes de este grupo son:\n"
+
+        "*Johan Peña (lider)\n"
+        "*Jimmy Moya (colider)\n"
+        "*Alejandra Blanco\n"
+        "*Rafael Jimenez\n"
+        "*Alejandra Gomez\n"
+        "*Fernanda Torres\n\n\n"
+
+        "Con experiencia o sin esta puedes ingresar y hacer parte de este semillero de investigación y desarrollo siempre y "
+        "cuando tengas ganas de aprender y aportar a esta pequeña pero en creciente comunidad.\n"
+
+        "Es es todo (que no se note que los nombres de los integrantes fue por rellenar el texto para que se vea el efecto de"
+        "scrolling XD) cualquier duda contacto en Decanatura de Sistemas o en la dirección calle falsa #123."
+
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
