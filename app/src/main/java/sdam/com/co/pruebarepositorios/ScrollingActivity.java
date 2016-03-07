@@ -1,7 +1,9 @@
 package sdam.com.co.pruebarepositorios;
 
-import android.content.Context;
-import android.os.Bundle;
+ import android.app.Activity;
+ import android.content.Context;
+ import android.content.Intent;
+ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -24,9 +26,18 @@ public class ScrollingActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Desea continuar?", Snackbar.LENGTH_LONG)
-                        .setAction("Continuar", this).show();
-                Toast.makeText(getApplicationContext(), "Ola k ase?", Toast.LENGTH_LONG).show();
+               // Snackbar.make(view, "Desea continuar?", Snackbar.LENGTH_LONG)
+                 //       .setAction("Continuar", this).show();
+
+                Snackbar.make(view, "Desea continuar?", Snackbar.LENGTH_LONG).setAction("Continuar",
+                        new View.OnClickListener() {
+                            public void onClick(View view) {
+                                Toast.makeText(getApplicationContext(), "Ola k ase?", Toast.LENGTH_LONG).show();
+                                Intent princ = new Intent();
+                                princ.setClass(ScrollingActivity.this, principal.class);
+                                startActivity(princ);
+                            }
+                        }).show();
             }
         });
     }
